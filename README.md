@@ -1,1 +1,10 @@
-# tensorflow_dense_example
+# TensorFlowでtf.layers.denseを用いる場合のサンプル
+
+## まとめ
+* tf.layers.denseを用いると全結合のグラフを簡単に作ることができる
+* バイアスの有無、活性化関数を設定できる
+* 初期値もinitializerで設定できる。デフォルトは、重みは乱数、バイアスはゼロのようだ
+* 乱数のシードは、graph.seedで設定できる
+* 自動で、重みとバイアスのVariableの計算グラフが作られる
+* graph.get_operations()を用いて、計算グラフの一覧を確認、取得してアクセスできる
+* おそらく、取得するメソッドは用意されていない(1.10.0の時点)
