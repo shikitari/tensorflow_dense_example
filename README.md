@@ -11,17 +11,17 @@
 
 * 訓練データとテストをデータを同一にしているが分離できている
 
-### 正解データ５つのカテゴリが分類されているのを色で表している
+### 正解データ
 * 緑がわかりづらいが、5つのカテゴリのデータがある。
 
 ![GitHub Logo](https://raw.githubusercontent.com/shikitari/tensorflow_dense_example/master/corect.png)
 
 ### 推測データ
 
-![GitHub Logo](https://raw.githubusercontent.com/shikitari/tensorflow_dense_example/master/predict.png)
-
 * 正解率が低い場合、色が黒に近づく。
 * 3次元データでも分類できる。
+
+![GitHub Logo](https://raw.githubusercontent.com/shikitari/tensorflow_dense_example/master/predict.png)
 
 
 ## 設計方針
