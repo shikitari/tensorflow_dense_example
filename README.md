@@ -14,11 +14,11 @@
 ### 正解データ５つのカテゴリが分類されているのを色で表している
 * 緑がわかりづらいが、5つのカテゴリのデータがある。
 
-![GitHub Logo](/images/logo.png)
+![GitHub Logo](https://raw.githubusercontent.com/shikitari/tensorflow_dense_example/master/corect.png)
 
 ### 推測データ
 
-![GitHub Logo](/images/logo.png)
+![GitHub Logo](https://raw.githubusercontent.com/shikitari/tensorflow_dense_example/master/predict.png)
 
 * 正解率が低い場合、色が黒に近づく。
 * 3次元データでも分類できる。
