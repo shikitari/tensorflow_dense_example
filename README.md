@@ -1,4 +1,4 @@
-# TensorFlow tf.layers.denseを用いて3次元スパイラルデータの分類サンプル
+# TensorFlow tf.layers.denseを用いた3次元スパイラルデータの分類
 
 ## 目的
 * 全結合レイヤー機能(tf.layers.dense)の使い方を学ぶ
