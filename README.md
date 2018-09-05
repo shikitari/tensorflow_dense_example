@@ -8,14 +8,15 @@
   * 3次元の非線形の(渦巻いている)データを乱数で作り、2層のNNで正しく分類できるかを試す  
 
 ### 正解データ
-* 5つのカテゴリのデータがある。
+* 赤、黄緑、緑、青、紫で塗った5つのカテゴリに属するデータがあるとする。
+* これを2層のニューラルネットワークで分類する。
 
 ![GitHub Logo](https://raw.githubusercontent.com/shikitari/tensorflow_dense_example/master/correct.png)
 
 ### 推測データ
 
-* 正解率が低い場合、色が黒に近づく。
-* この程度のばらつきであれば、3次元データでも分類できる。
+* 推測が正しい場合、そのままの色。確率が低い場合、色が黒に近づく。
+* この程度のばらつきであれば、3次元データでも分類できている。
 
 ![GitHub Logo](https://raw.githubusercontent.com/shikitari/tensorflow_dense_example/master/predict.png)
 
