@@ -1,5 +1,4 @@
-# coding: utf-8
-# import numpy as np
+import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import colorsys
@@ -36,9 +35,9 @@ class Plotter:
             for i in range(num_of_each_class_data):
                 index = j * num_of_each_class_data + i
                 if colorize:
-                    colors[j][i] = colorsys.hsv_to_rgb(j / num_of_classes * 0.7, 1, np.max(predict[index]))
+                    colors[j][i] = colorsys.hsv_to_rgb(j / num_of_classes, 1, predict[index][j])
                 else:
-                    colors[j][i] = colorsys.hsv_to_rgb(j / num_of_classes * 0.7, 1, 1)
+                    colors[j][i] = colorsys.hsv_to_rgb(j / num_of_classes, 1, 1)
 
         for index_classes in range(num_of_classes):
             s = index_classes * num_of_each_class_data

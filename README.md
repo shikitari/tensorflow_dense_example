@@ -8,9 +8,9 @@
   * 3次元の非線形の(渦巻いている)データを乱数で作り、2層のNNで正しく分類できるかを試す  
 
 ### 正解データ
-* 緑がわかりづらいが、5つのカテゴリのデータがある。
+* 5つのカテゴリのデータがある。
 
-![GitHub Logo](https://raw.githubusercontent.com/shikitari/tensorflow_dense_example/master/corect.png)
+![GitHub Logo](https://raw.githubusercontent.com/shikitari/tensorflow_dense_example/master/correct.png)
 
 ### 推測データ
 

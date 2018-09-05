@@ -1,5 +1,4 @@
-# coding: utf-8
-# import numpy as np
+import numpy as np
 from Data import Data
 from TwoDenseOperations import TwoDenseOperations
 from TfSession import TfSession
@@ -14,9 +13,9 @@ class App:
     NUM_OF_DIMENSIONS = 3
 
     def __init__(self):
-        self.d = None # data manager
-        self.o = None # operations manager
-        self.t = None # tensorflow session manager
+        self.d = None  # data manager
+        self.o = None  # operations manager
+        self.t = None  # tensorflow session manager
 
     def init(self):
         """
@@ -27,7 +26,8 @@ class App:
                       batch_size=self.BATCH_SIZE)
 
         # オペレーション(計算グラフ)
-        self.o = TwoDenseOperations(input_size=self.NUM_OF_DIMENSIONS, hidden_unit_size=5, output_size=self.NUM_OF_CLASSES, learn_rate=1.0)
+        self.o = TwoDenseOperations(input_size=self.NUM_OF_DIMENSIONS, hidden_unit_size=5,
+                                    output_size=self.NUM_OF_CLASSES, learn_rate=1.0)
 
         # セッション
         self.t = TfSession(self.o)
@@ -47,7 +47,8 @@ class App:
             self.d.shuffle()
 
             if i == 0 or i % 10 == 0:
-                feed_dict = self.o.create_feed_dict(self.d.inputs[0:self.BATCH_SIZE], self.d.onehot_labels[0:self.BATCH_SIZE])
+                feed_dict = self.o.create_feed_dict(self.d.inputs[0:self.BATCH_SIZE],
+                                                    self.d.onehot_labels[0:self.BATCH_SIZE])
                 loss_value = self.t.calculate_loss_value(feed_dict)
                 print('loss value: {0:0.3f}'.format(loss_value))
 
