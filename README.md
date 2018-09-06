@@ -15,6 +15,8 @@
 
 ![img](https://raw.githubusercontent.com/shikitari/tensorflow_dense_example/master/results/correct.png)
 
+### 3D視点切り替えアニメーション
+
 ![img](https://raw.githubusercontent.com/shikitari/tensorflow_dense_example/master/results/vision.gif)
 
 ### 推測データ
@@ -23,12 +25,8 @@
 
 ![img](https://raw.githubusercontent.com/shikitari/tensorflow_dense_example/master/results/predict.png)
 
-![img](https://raw.githubusercontent.com/shikitari/tensorflow_dense_example/master/results/animation.gif)
-
 ### 正解と推測のアニメーション
-
-
-### 3D視点切り替えアニメーション
+![img](https://raw.githubusercontent.com/shikitari/tensorflow_dense_example/master/results/animation.gif)
 
 ## 全結合レイヤー機能(tf.layers.dense)の仕様
 * 入力数、出力数、バイアスの有無、活性化関数などを設定できる
