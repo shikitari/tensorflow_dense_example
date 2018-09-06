@@ -14,14 +14,16 @@
 * これを2層のニューラルネットワークで分類する。
 
 ![img](https://raw.githubusercontent.com/shikitari/tensorflow_dense_example/master/results/correct.png)
-![img](https://raw.githubusercontent.com/shikitari/tensorflow_dense_example/master/results/vision.png)
+
+![img](https://raw.githubusercontent.com/shikitari/tensorflow_dense_example/master/results/vision.gif)
 
 ### 推測データ
 
 * 推測が正しい場合、そのままの色。確率が低い場合、色が黒に近づく。
 
 ![img](https://raw.githubusercontent.com/shikitari/tensorflow_dense_example/master/results/predict.png)
-![img](https://raw.githubusercontent.com/shikitari/tensorflow_dense_example/master/results/animation.png)
+
+![img](https://raw.githubusercontent.com/shikitari/tensorflow_dense_example/master/results/animation.gif)
 
 ### 正解と推測のアニメーション
 
