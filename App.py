@@ -96,4 +96,5 @@ class Main:
         app.plot(predict)
 
 
-Main()
+if __name__ == "__main__":
+    Main()
